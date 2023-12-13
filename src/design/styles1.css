@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}
+
+/* Container styles */
+.singlepage-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 26px 100px;
+  background-color: transparent;
+}
+
+/* Stepper styles */
+.stepper-container {
+  margin-bottom: 20px;
+}
+
+/* Question styles */
+.question-container {
+  /*text-align: center;*/
+  margin-bottom: 20px;
+}
+
+.question-title {
+  font-size: 1.5rem; /* Adjust the font size */
+  margin-bottom: 10px;
+}
+
+/* Options styles */
+.options-list {
+  margin-right: 180px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.option-item {
+  margin-bottom: 10px;
+  text-align: left; /* Align options to the left */
+}
+
+/* Button styles */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+/* Add space between Previous and Next buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Add margin at the top */
+}
